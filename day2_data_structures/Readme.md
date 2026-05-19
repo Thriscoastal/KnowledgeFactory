@@ -20,7 +20,7 @@ Lists are exactly what they sound like: a sequence of items in a specific order.
   - Duplicates are allowed (Python doesn't care if the same item is in there twice).
 
 ## 2. Tuples
-ThTuples are immutable lists. 
+Tuples are immutable lists. 
 - **Syntax:** Parentheses `()`
 - **Example:** `(40.7128, -74.0060)`
 - **Key Features:**
