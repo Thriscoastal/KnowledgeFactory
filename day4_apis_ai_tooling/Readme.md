@@ -6,7 +6,7 @@ Here is a breakdown of what I finally figured out today.
 
 ---
 
-## 🍽️ 1. What the heck is a REST API?
+##  1. What the heck is a REST API?
 
 Basically, an API (Application Programming Interface) is like a waiter at a restaurant. My code is the customer, and the server is the kitchen. I can't just go into the kitchen and grab data; I have to ask the waiter (the API) to get it for me. 
 
