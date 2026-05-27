@@ -1,4 +1,4 @@
-## 🔌 1. Connecting to APIs (The Handshake)
+##  1. Connecting to APIs
 An **API** (Application Programming Interface) is just a fancy way for two computer programs to talk to each other. 
 To get Python to talk to OpenAI or Ollama, you use a Python library (usually the `openai` package). 
 
@@ -6,7 +6,7 @@ To get Python to talk to OpenAI or Ollama, you use a Python library (usually the
 
 ---
 
-## ⚾ 2. Response Handling (Catching the Ball)
+## 2. Response Handling
 When you ask the AI a question, it doesn't just hand you back a simple sentence. It throws back a big, complex package of data (called a JSON object). 
 
 * **What's inside the package?** It includes metadata like how many tokens you used, the model name, and the actual answer.
@@ -16,7 +16,7 @@ When you ask the AI a question, it doesn't just hand you back a simple sentence.
 
 ---
 
-## 🖨️ 3. Streaming Outputs (The Typewriter Effect)
+##  3. Streaming Outputs
 Have you noticed that ChatGPT types out its answers word-by-word? That is called **Streaming**.
 
 * **Without Streaming:** You ask a question. Python waits... and waits... and waits 10 seconds for the AI to finish writing the whole essay. Then it dumps the whole text on your screen at once. Boring!
@@ -24,7 +24,7 @@ Have you noticed that ChatGPT types out its answers word-by-word? That is called
 
 ---
 
-## 🔗 4. Prompt Chaining (The Assembly Line)
+## 4. Prompt Chaining 
 Sometimes, asking an AI to do a massive task in one single prompt makes it confused and produces garbage. **Prompt Chaining** is the fix.
 
 Instead of one giant prompt, you break the job into an assembly line of smaller, focused prompts. You take the **output** of Prompt 1 and use it as the **input** for Prompt 2.
